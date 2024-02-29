@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+// ** Variables ** //
+$primary: #3465b4;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  color: #2d3748;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-backdrop {
+  background-color: rgba(45, 55, 72, 0.5);
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1290px;
+  }
+}
